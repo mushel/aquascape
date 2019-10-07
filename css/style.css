@@ -1,0 +1,142 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+html {
+  background: #e8eaf6;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Tinos', serif;
+}
+h2.header, h3.header, h4.header, h5.header {
+  text-shadow: 0px 0px 5px #000;
+}
+nav .brand-logo {
+  font-size: 1.4rem;
+  font-family: 'Tinos', serif;
+}
+nav ul a,
+nav .brand-logo {
+  color: #e8eaf6;
+}
+
+p {
+  line-height: 2rem;
+}
+
+footer .input-field input, footer .input-field textarea {
+  border-color: #b2dfdb !important;
+  color: #b2dfdb !important;
+}
+footer .input-field label {
+  color: #b2dfdb !important;
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+footer ul {
+  margin-left: -0.75rem;
+}
+footer ul:nth-last-child() {
+  text-align: right;
+}
+.collapsible{
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+.collapsible li {
+  width: 33.33333%;
+}
+.collapsible-header {
+  justify-content: center;
+  width: 100%;
+}
+.collapsible-body {
+  background: #fff;
+  width: 300%;
+}
+li:nth-child(2) .collapsible-body {
+  margin-left: -100%;
+}
+li:nth-child(3) .collapsible-body {
+  margin-left: -200%;
+}
+.sidenav-trigger {
+  color: #26a69a;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+}
+.fish1 {
+  background: url("../img/FLOWERHORN.jpeg") no-repeat;
+}
+.fish2 {
+  background: url("../img/MANDARIN.jpg") no-repeat;
+}
+.fish3 {
+  background: url("../img/YELLOW_LAB.jpg") no-repeat;
+}
+.input-field > label, label {
+  color:#424242;
+}
+.dropdown-content li > a, .dropdown-content li > span {
+  color: #3949ab;
+}
+.select-wrapper .caret {
+  fill: #3949ab;
+}
+[type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
+  background-color: #3949ab;
+}
+[type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:before, [type="radio"].with-gap:checked + span:after {
+  border: 2px solid #3949ab;
+}
+.select-wrapper input.select-dropdown {
+  border-bottom: 1px solid #3949ab;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color:#424242;
+}
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+  border-bottom: 1px solid #3949ab;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
